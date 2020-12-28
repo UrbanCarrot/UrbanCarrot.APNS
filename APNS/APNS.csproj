@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <Title>UrbanCarrot APNS</Title>
+        <Authors>UrbanCarrot</Authors>
+        <Description>A library for connecting to the Apple Push Notification Service in C#</Description>
+        <Copyright>Copyright © 2020 UrbanCarrot.</Copyright>
+        <PackageProjectUrl>https://github.com/urbancarrot/urbancarrot.apns</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/UrbanCarrot/UrbanCarrot.APNS/blob/main/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/urbancarrot/urbancarrot.apns.git</RepositoryUrl>
+        <RepositoryType>GIT</RepositoryType>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <FileVersion>1.0.0</FileVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+      <PackageReference Include="System.Security.Cryptography.Cng" Version="5.0.0" />
+    </ItemGroup>
+
+</Project>
